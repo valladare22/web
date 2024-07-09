@@ -1,0 +1,114 @@
+
+  
+
+
+
+
+.contenido a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    margin-top: 10px;
+    border: 1px solid ;
+    border-radius: white 10px;
+    transition: all 400ms ease;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    font-size: 20;
+    
+}
+.contenido a:hover{
+    background: yellow;
+    color: dodgerblue;
+        transform: scale(1.09);
+    transform: translateX(10px);
+    
+}
+.contenido{
+   
+
+    padding: 0%;
+   
+    background-color: aliceblue;
+    width: 350px;
+    height: 700px;
+   
+    
+}
+.contenido:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.15);
+    transform: translateY(-5%)
+    
+    
+    
+}
+
+
+
+
+
+.encabezado h1{
+    background-color: white;
+    color: black;
+    font-family: fantasy;
+    font-size: 35;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    
+    
+}
+.img{
+    float: right;
+     
+    
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(270deg, #99CCCC, #66CCCC, #33CCCC, #339999);
+    background-size: 200% 200%;
+    animation: gradient 30s ease infinite;
+    background-image: url(f29.webp);
+    height: 600px;
+    width: 900px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+}
+.sol{
+
+        
+}
+
+
+
+
+

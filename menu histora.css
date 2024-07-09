@@ -1,0 +1,12 @@
+.body{
+   background-image: url(munu1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+. sol .a :hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.15);
+    transform: translateY(-5%)
+    
+}

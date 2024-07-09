@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Armando Martínez</title>
+    <link rel="stylesheet" href="programa%20academicos.css">
+</head>
+<body>
+
+    <header>
+
+        <h1>Instituto Armando Martínez</h1>
+        <nav>
+            <ul>
+
+                <center>
+                <li><a href="index2.html">Inicio </a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+         <img src="hogoIAM..jpg" class="img-fluid rounded-start" alt="..."  width="100" height="100">
+        <center>
+            <h3>Fue creado el 2007, mediante apoyo y gestión política del alcalde municipal Ovidio Segura (Q.D.D.G.) y el diputado Mario Segura. Fue un comienzo difícil, los vaivenes de la política fueron el principal obstáculo para el desarrollo de actividades normales de la institución académica.</h3>
+
+        </center>
