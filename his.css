@@ -1,0 +1,19 @@
+.body{
+    background-image: url(h4.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.encabezado{
+    background-color: black;
+    width: 1000px;
+    height: 20px;
+}
+.pie{
+     background-color: black;
+    width: 1000px;
+    height: 20px;
+}
+.bi bi-arrow-left-circle-fill{
+    background-color: black;
+}

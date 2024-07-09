@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Armando Martínez</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Instituto Armando Martínez</h1>
+      <nav>
+        <ul>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#programas">Programas Académicos</a></li>
+          <li><a href="#staff">Nuestro Equipo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="historia">
+    <div class="container">
+      <h2>Historia</h2>
+      <p>
+        Inserta aquí la historia del Instituto Armando Martínez.
+      </p>
+    </div>
+  </section>
+
+  <section id="programas">
+    <div class="container">
+      <h2>Programas Académicos</h2>
+      <p>
+        Describe aquí los programas académicos ofrecidos por el Instituto Armando Martínez.
+      </p>
+    </div>
+  </section>
+
+  <section id="staff">
+    <div class="container">
+      <h2>Nuestro Equipo</h2>
+      <p>
+        Presenta aquí al personal del Instituto Armando Martínez.
+      </p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>
+        Proporciona aquí información de contacto para el Instituto Armando Martínez.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Derechos Reservados &copy; 2024 Instituto Armando Martínez</p>
+    </div>
+  </footer>
+
+</body>
+</html>
