@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: ;
+    background-image: url(f20.jpg);
+    background-position: center;
+    background-size: cover;
+    font-style: italic;
+    font-size: 7;
+}
+
+.list-container {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-style: italic;
+    font-size: 7;
+}
+
+.animated-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.list-item:hover {
+    background-color: black;
+    transform: translateX(10px);
+    color: white;
+    font-style: italic;
+    font-size: 7;
+}
+
+.list-item:active {
+    background-color: #e0e0e0;
+    transform: translateX(5px);
+}

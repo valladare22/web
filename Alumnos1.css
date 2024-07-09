@@ -1,0 +1,22 @@
+body{
+    background-image: url(Fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+button{
+    height: 55px;
+    width:150px;
+    border-radius: 30px;
+    background-color: #B24624;
+    border: 1px solid;
+    border-color: #B24624;
+    color: white ;
+    float: right;
+}
+button:hover{
+     background-color: blanchedalmond;
+     border-color: #B24624;
+    color: #B24624 ;
+    border: 3px solid;
+}
