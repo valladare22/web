@@ -1,0 +1,59 @@
+<!<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+    
+<head>
+<title>
+    </title>
+
+    </head>
+  
+    <body >
+       
+    
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col"" card  w-50 mb-5 bg -primary">
+    <div class="card h- 100">
+      <img src="victoria.jpg" class="card-img-top" alt="..."width="100" height="275">
+      <div class="card-body">
+        <h5 class="card-title"> Victoria </h5>
+        <p class="card-text">Estudiante del Instituto Armando Martínez en la carrera de bachillerato profesional en informatica.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">24/04/2024</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="Letti.png.png" class="card-img-top" alt="..." width="100"high="275">
+      <div class="card-body">
+        <h5 class="card-title">Leticia Judith Gómez</h5>
+        <p class="card-text">Estudiante en bachillerato profesional en informatica.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary"> IAM.</small>
+      </div>
+    </div>
+  </div>
+           < top>
+  <div class="col">
+    <div class="card h-100">
+      <img src="aslin.jpg" class="card-img-top" alt="..." width="100" height="275">
+      <div class="card-body">
+        <h5 class="card-title">Aisly Hernandez</h5>
+        <p class="card-text">Estudiante de Bachillerato profesional en informatica.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">24/04/2024</small>
+      </div>
+    </div>
+  </div>
+</div>
+        
+     </top>   
+    
+        
+        
+        
+       
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+       
