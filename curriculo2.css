@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body style="background-color: b;">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondo.png</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #backgroundPreview {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        input[type="file"] {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Seleccionar fondo para CV</h2>
+        <form>
+            <input type="file" id="backgroundInput" accept="img.png" width "300" height="300">
+            <img id="backgroundPreview" src="img.png" alt="Vista previa del fondo">
+        </form>
+    </div>
+
+    <script>
+        
+    </script>
+</body>
+</html>
+
+
+
