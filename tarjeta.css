@@ -1,0 +1,91 @@
+body{
+    background-image: url(fondon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.boton2{
+    height: 65px;
+    width:160px;
+    border-radius: 30px;
+    background-color: deeppink;
+    border: 1px solid;
+    border-color: deeppink;
+    color: white ;
+    
+}
+
+.boton2:hover{
+     background-color: red;
+     border-color: ;
+    color: deeppink ;
+    border: 3px solid;
+}
+.container{
+    width: 85%;
+    height: 600px;
+    padding-bottom: 10%;
+padding-top: 10%;
+   margin-right: 2%;
+    border: 2px;
+  
+}
+
+.todo{
+     width: 85%;
+    height: 600px;
+}
+img{
+    width: 250px;
+    height: 300px;
+}
+.card{
+    background-color:rebeccapurple ;
+    width: 250px;
+    height: 550px;
+    box-shadow: black; 
+   
+    margin-left: 60px;
+    transition: all 400ms ease;
+     
+     }
+
+.card:hover{
+    border: 3px solid; 
+    box-shadow: -20px 20px 50px rebeccapurple; 
+    border-color: red;
+
+    float: left;
+    
+        
+}
+p {
+     margin: 5px;
+     text-align: center;
+  }
+
+
+h2{
+    color: firebrick;
+    font-family: "Christmas Time Personal Use";
+    text-align: center;
+  }
+
+.boton{
+    background-color: rebeccapurple;
+    color: bisque;
+    width: 120px;
+    height: 30px;
+    
+    
+      }
+
+p{
+    text-align: justify;
+}
+
+.regresar{
+    width: 200px;
+    height: 100px;
+    }
