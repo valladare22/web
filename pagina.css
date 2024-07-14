@@ -125,7 +125,47 @@ footer ul li {
     }
     input[type="submit"]:hover {
         background-color: #45a049;
+ 
+}
+
+/mapa/
+    .mapa{
+  
+        margin-left: 60%;
+        top: 100px;
+       
+
+    
     }
+    
+
+
+           /ubicaciÃ³n/
+           .card-title{
+            margin-left: 28%;
+            top: 100px;
+           
+          
+        }
 
 
 
+
+
+    @media (max-width: 20px) {
+        mapa {
+            flex-direction: column;
+        }
+        mapa {
+            margin-right: ;
+        }
+    }
+    
+    @media (min-width: 10px) {
+        mapa {
+            flex-direction: column;
+        }
+        mapa {
+            margin-bottom: 1px;
+    
+        }
