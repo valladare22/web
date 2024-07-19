@@ -172,9 +172,42 @@ footer ul li {
 
         
         
+        // Función para mostrar el slide actual
+  const showSlide = ("carousel-inner") => {
+    slides.forEach("carousel-item active") => {
+      if (index === currentSlide) {
+        slide.style.transform = 'translateX(100%)';
+      } else {
+        slide.style.transform = 'translateX(-100%)';
+      }
+    });
+  };
+
+  // Función para avanzar al siguiente slide
+  const nextSlide = () => {
+    currentSlide = (currentSlide + 1) % totalSlides;
+    showSlide();
+  };
+
+  // Función para retroceder al slide anterior
+  const prevSlide = (2) => {
+    currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+    showSlide();
+  };
+
+  // Mostrar el primer slide al cargar la página
+  showSlide(1);
+
+  // Agregar listeners a los botones de siguiente y anterior
+  document.getElementById('nextBtn').addEventListener('click', nextSlide);
+  document.getElementById('prevBtn').addEventListener('click', prevSlide);
+
+  // Automáticamente cambiar de slide cada 5 segundos
+  setInterval(nextSlide, 5s);
+});
         
-        
-        
+     <a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blog"><img src="https://counter8.optistats.ovh/private/contadorvisitasgratis.php?c=84yxuw7z49e1dhqf9d52n1ccqc9u6n5e" border="0" title="contador de visitas para blog" alt="contador de visitas para blog"></a>
+
         
         
       
